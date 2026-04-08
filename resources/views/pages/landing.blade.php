@@ -82,10 +82,11 @@
    onmouseout="this.style.color='var(--color-on-surface-variant)'; this.style.backgroundColor='transparent'">
   Profile
   </a>
-  <button class="px-6 py-2 rounded font-semibold transition-all active:scale-95 hover:opacity-90"
+  <a href="{{ route('crud.page') }}"
+   class="px-6 py-2 rounded font-semibold transition-all active:scale-95 hover:opacity-90"
     style="background-color: var(--color-primary-container); color: var(--color-on-primary);">
   Login
-  </button>
+  </a>
   </div>
   </div>
 </nav>
@@ -126,10 +127,11 @@
 
   {{-- CTA Buttons --}}
   <div class="flex flex-col sm:flex-row gap-4 pt-4">
-  <button class="group px-8 py-4 rounded font-bold text-lg flex items-center justify-center gap-2 transition-all active:scale-95 hover:opacity-90"
+  <a href="{{ route('crud.page') }}"
+   class="group px-8 py-4 rounded font-bold text-lg flex items-center justify-center gap-2 transition-all active:scale-95 hover:opacity-90"
     style="background-color: var(--color-primary-container); color: var(--color-on-primary);">
     Get Started
-  </button>
+  </a>
   <button class="px-8 py-4 rounded font-bold text-lg transition-all active:scale-95"
     style="background-color: var(--color-surface-container-high); color: var(--color-primary);"
     onmouseover="this.style.backgroundColor='var(--color-surface-container-highest)'"
