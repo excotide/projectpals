@@ -82,12 +82,13 @@
    onmouseout="this.style.color='var(--color-on-surface-variant)'; this.style.backgroundColor='transparent'">
   Profile
   </a>
-  <a href="{{ route('crud.page') }}"
+  <a href="{{ route('login') }}"
    class="px-6 py-2 rounded font-semibold transition-all active:scale-95 hover:opacity-90"
     style="background-color: var(--color-primary-container); color: var(--color-on-primary);">
-  Login
-  </a>
-  </div>
+  Login\
+</a>
+
+</div>
   </div>
 </nav>
 
@@ -127,7 +128,7 @@
 
   {{-- CTA Buttons --}}
   <div class="flex flex-col sm:flex-row gap-4 pt-4">
-  <a href="{{ route('crud.page') }}"
+  <a href="{{ route('login') }}"
    class="group px-8 py-4 rounded font-bold text-lg flex items-center justify-center gap-2 transition-all active:scale-95 hover:opacity-90"
     style="background-color: var(--color-primary-container); color: var(--color-on-primary);">
     Get Started
